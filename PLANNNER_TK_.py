@@ -24,16 +24,16 @@ class B():
 
         
     def init_lbl(self):
-        self.arr_text_mission = ['stand up !>                        6:50',
-                                 'sleeping write !>               6:50',
-                                 'teeth !>                              6:55',
-                                 'power lesson !>                7:10',
-                                 '20 uppi !>                          7:15',
-                                 '20 downi !>                       7:15',
-                                 'tea !>                                  7:20',
-                                 'meditation !>                    7:30',
-                                 'python coding !>             7:40',
-                                 'clearing and exit !>          8:00']
+        self.arr_text_mission = ['Подъем !>                       6:50',
+                                 'Уборка постели !>               6:50',
+                                 'Утренний туалет !>              6:55',
+                                 'Зарядка !>                      7:10',
+                                 'Завтрак !>                      7:15',
+                                 'Проверка сбора !>               7:15',
+                                 'Чтение !>                       7:20',
+                                 'Медитация !>                    7:30',
+                                 'Проверка почты !>               7:40',
+                                 'Выход из дома !>                8:00']
         
         self.m1 = Label(self.f_mis, bg = 'blue')
         self.m2 = Label(self.f_mis)
