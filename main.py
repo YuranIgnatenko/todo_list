@@ -24,16 +24,18 @@ class B():
 
         
     def init_lbl(self):
-        self.arr_text_mission = ['Подъем !>                       6:50',
-                                 'Уборка постели !>               6:50',
-                                 'Утренний туалет !>              6:55',
-                                 'Зарядка !>                      7:10',
-                                 'Завтрак !>                      7:15',
-                                 'Проверка сбора !>               7:15',
-                                 'Чтение !>                       7:20',
-                                 'Медитация !>                    7:30',
-                                 'Проверка почты !>               7:40',
-                                 'Выход из дома !>                8:00']
+        self.arr_text_mission = [
+'Task     11:00',
+'Task     12:00',
+'Task     13:00',
+'Task     14:00',
+'Task     15:00',
+'Task     16:00',
+'Task     17:00',
+'Task     18:00',
+'Task     19:00',
+'Task     20:00',
+        ]
         
         self.m1 = Label(self.f_mis, bg = 'blue')
         self.m2 = Label(self.f_mis)
@@ -245,16 +247,18 @@ class B():
         self.f_list_note.place(x = 400,y = 200, width = 200, height = 200)
 
     def init_notes(self):
-        self.arr_note_text = ['Drawing Profile and more',
-                              'Sport easy',
-                              'Reading books',
-                              'Coding Python, C#, HTML and more',
-                              'Sciense, Psihology, Programming',
-                              'Have dreams',
-                              'Satanic, Anarhys',
-                              'Logical see in live',
-                              "Don't Static",
-                              'and there',]
+        self.arr_note_text = [
+            "motivate or note",
+            "motivate or note",
+            "motivate or note",
+            "motivate or note",
+            "motivate or note",
+            "motivate or note",
+            "motivate or note",
+            "motivate or note",
+            "motivate or note",
+            "motivate or note",
+                              ]
         self.Pos_note = 0
         for i in range(10):
             self.n = Label(self.f_list_note, text = self.arr_note_text[i])
